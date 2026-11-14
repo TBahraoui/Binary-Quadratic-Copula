@@ -1,0 +1,10 @@
+Package: quadcopula
+Title: Binary Quadratic Copula Models
+Version: 0.1.0
+Authors@R: person("T", "Bahraoui", role = c("aut", "cre"), email = "84332383+TBahraoui@users.noreply.github.com")
+Description: Estimation, inference, simulation, and visualization tools for binary quadratic copula models.
+License: MIT
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: mvtnorm, stats, grDevices
+Suggests: igraph
