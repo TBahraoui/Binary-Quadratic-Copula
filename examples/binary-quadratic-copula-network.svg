@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Example binary quadratic copula interaction network</title>
+  <desc id="desc">Nine binary variables arranged as three groups of three. Green edges indicate positive pairwise quadratic interactions within each group.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="600" fill="#222">Binary quadratic copula: example interaction network</text>
+  <text x="450" y="74" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#555">Edges represent nonzero pairwise terms in the quadratic interaction matrix Ω</text>
+
+  <g stroke="#31945a" stroke-width="5" stroke-linecap="round" opacity="0.75">
+    <line x1="170" y1="190" x2="290" y2="190"/><line x1="290" y1="190" x2="230" y2="300"/><line x1="230" y1="300" x2="170" y2="190"/>
+    <line x1="400" y1="190" x2="520" y2="190"/><line x1="520" y1="190" x2="460" y2="300"/><line x1="460" y1="300" x2="400" y2="190"/>
+    <line x1="630" y1="190" x2="750" y2="190"/><line x1="750" y1="190" x2="690" y2="300"/><line x1="690" y1="300" x2="630" y2="190"/>
+  </g>
+  <g fill="#4c78a8" stroke="#ffffff" stroke-width="3">
+    <circle cx="170" cy="190" r="31"/><circle cx="290" cy="190" r="31"/><circle cx="230" cy="300" r="31"/>
+    <circle cx="400" cy="190" r="31"/><circle cx="520" cy="190" r="31"/><circle cx="460" cy="300" r="31"/>
+    <circle cx="630" cy="190" r="31"/><circle cx="750" cy="190" r="31"/><circle cx="690" cy="300" r="31"/>
+  </g>
+  <g fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="600" text-anchor="middle" dominant-baseline="central">
+    <text x="170" y="190">X1</text><text x="290" y="190">X2</text><text x="230" y="300">X3</text>
+    <text x="400" y="190">X4</text><text x="520" y="190">X5</text><text x="460" y="300">X6</text>
+    <text x="630" y="190">X7</text><text x="750" y="190">X8</text><text x="690" y="300">X9</text>
+  </g>
+  <g font-family="sans-serif" font-size="16" fill="#444" text-anchor="middle">
+    <text x="230" y="370">Group 1</text><text x="460" y="370">Group 2</text><text x="690" y="370">Group 3</text>
+  </g>
+  <line x1="336" y1="438" x2="386" y2="438" stroke="#31945a" stroke-width="5" stroke-linecap="round"/>
+  <text x="398" y="444" font-family="sans-serif" font-size="14" fill="#444">Positive quadratic interaction</text>
+  <text x="450" y="492" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#777">Schematic illustration; generated-model values vary by random seed.</text>
+</svg>
